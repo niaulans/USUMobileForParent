@@ -22,8 +22,17 @@ Melalui aplikasi ini, orang tua mahasiswa juga dapat melihat aktifitas mahasiswa
 
 <img src="images/Splash Screen.jpg" width="300" height="550" align="center">
 
-<img src="images/panduan.jpg" width="300" height="550" align="center">
+<img src="images/panduan.jpeg" width="300" height="550" align="center">
 
 <img src="images/welcome.jpg" width="300" height="550" align="center">
 
+<img src="images/login.jpg" width="300" height="550" align="center">
+
+<img src="images/profil.jpg" width="300" height="550" align="center">
+
 <img src="images/krs.jpg" width="300" height="550" align="center">
+
+<img src="images/khs.jpg" width="300" height="550" align="center">
+
+<img src="images/akademik.jpg" width="300" height="550" align="center">
+
