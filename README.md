@@ -20,4 +20,16 @@ Melalui aplikasi ini, orang tua mahasiswa juga dapat melihat aktifitas mahasiswa
 
 ## Desain UI/UX
 
+<img src="images2/Splash screen.png" width="300" height="550" align="center">
 
+<img src="images2/login.png" width="300" height="550" align="center">
+
+<img src="images2/home.png" width="300" height="550" align="center">
+
+<img src="images2/profil.png" width="300" height="550" align="center">
+
+<img src="images2/akademik.png" width="300" height="550" align="center">
+
+<img src="images2/jadwal.png" width="300" height="550" align="center">
+
+<img src="images2/notif.png" width="300" height="550" align="center">
