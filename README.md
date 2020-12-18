@@ -22,9 +22,9 @@ Melalui aplikasi ini, orang tua mahasiswa juga dapat melihat aktifitas mahasiswa
 
 <img src="images2/Splash screen.png" width="300" height="550" align="center">
 
-<img src="images2/Home.png" width="300" height="550" align="center">
-
 <img src="images2/login.png" width="300" height="550" align="center">
+
+<img src="images2/Home.png" width="300" height="550" align="center">
 
 <img src="images2/profil.png" width="300" height="550" align="center">
 
