@@ -20,24 +20,24 @@ Melalui aplikasi ini, orang tua mahasiswa juga dapat melihat aktifitas mahasiswa
 
 ## Desain UI/UX
 
-<img src="images2/Splash screen.png" width="300" height="550" align="center">
+<img src="images/Splash screen.png" width="300" height="550" align="center">
 
-<img src="images2/login.png" width="300" height="550" align="center">
+<img src="images/login.png" width="300" height="550" align="center">
 
-<img src="images2/home.png" width="300" height="550" align="center">
+<img src="images/home.png" width="300" height="550" align="center">
 
-<img src="images2/profil.png" width="300" height="550" align="center">
+<img src="images/profil.png" width="300" height="550" align="center">
 
-<img src="images2/akademik.png" width="300" height="550" align="center">
+<img src="images/akademik.png" width="300" height="550" align="center">
 
-<img src="images2/krs.png" width="300" height="550" align="center">
+<img src="images/krs.png" width="300" height="550" align="center">
 
-<img src="images2/khs.png" width="300" height="550" align="center">
+<img src="images/khs.png" width="300" height="550" align="center">
 
-<img src="images2/kehadiran.png" width="300" height="550" align="center">
+<img src="images/kehadiran.png" width="300" height="550" align="center">
 
-<img src="images2/transkip.png" width="300" height="550" align="center">
+<img src="images/Transkip.png" width="300" height="550" align="center">
 
-<img src="images2/jadwal.png" width="300" height="550" align="center">
+<img src="images/jadwal.png" width="300" height="550" align="center">
 
-<img src="images2/notif.png" width="300" height="550" align="center">
+<img src="images/notif.png" width="300" height="550" align="center">
