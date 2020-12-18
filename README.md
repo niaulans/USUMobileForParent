@@ -38,7 +38,6 @@ Melalui aplikasi ini, orang tua mahasiswa juga dapat melihat aktifitas mahasiswa
 
 <img src="images2/transkip.png" width="300" height="550" align="center">
 
-
 <img src="images2/jadwal.png" width="300" height="550" align="center">
 
 <img src="images2/notif.png" width="300" height="550" align="center">
