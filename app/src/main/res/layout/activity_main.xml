@@ -6,13 +6,536 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E8EDE9"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="67dp"
+        android:weightSum="2">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1350dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#E8EDE9"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/corner_top_page"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="260dp"
+                            android:layout_height="70dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/title_page"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="40dp"
+                                android:fontFamily="sans-serif-black"
+                                android:gravity="center_vertical"
+                                android:text="Home"
+                                android:textColor="#E8EDE9"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="350dp"
+                            android:layout_height="70dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/welcoming"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="40dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="Selamat datang, Orangtua dari Hana Lubna Sakhi Hutauruk"
+                                android:textColor="#E8C31E"
+                                android:textSize="17sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:orientation="vertical">
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:paddingTop="20dp"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imglogo"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:gravity="center"
+                            android:src="@drawable/paspoto_contoh" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/nama_mhs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif-black"
+                            android:gravity="center_vertical"
+                            android:text="Hana Lubna Sakhi Hutauruk"
+                            android:textColor="#9B9D9C"
+                            android:textSize="15sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginRight="20dp"
+                            android:background="#9B9D9C"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/nim_mhs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif-black"
+                            android:gravity="center_vertical"
+                            android:padding="1dip"
+                            android:text="171402000"
+                            android:textColor="#9B9D9C"
+                            android:textSize="15sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginRight="20dp"
+                            android:background="#9B9D9C"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/jurusan_mhs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif-black"
+                            android:gravity="center_vertical"
+                            android:text="Teknologi Informasi"
+                            android:textColor="#9B9D9C"
+                            android:textSize="15sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginRight="20dp"
+                            android:background="#9B9D9C"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/fakultas_mhs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif-black"
+                            android:gravity="center_vertical"
+                            android:text="Fakultas Ilmu Komputer dan Teknologi Informasi"
+                            android:textColor="#9B9D9C"
+                            android:textSize="15sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginRight="20dp"
+                            android:background="#9B9D9C"
+                            android:visibility="visible" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/corner_table"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/corner_title_table"
+                            android:fontFamily="sans-serif-black"
+                            android:gravity="center"
+                            android:padding="1dip"
+                            android:text="Jadwal Hari Ini"
+                            android:textColor="#C1CDBE"
+                            android:textSize="20sp" />
+
+                        <TableRow
+                            android:layout_height="match_parent"
+                            android:padding="4dip">
+
+                            <TextView
+                                android:layout_width="90dp"
+                                android:text="Jam"
+                                android:textAlignment="center"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:background="#ffffff"
+                                android:text="Mata Kuliah"
+                                android:textAlignment="center"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:text="SKS"
+                                android:textAlignment="center"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:background="#ffffff"
+                                android:text="Ruang"
+                                android:textAlignment="center"
+                                android:textColor="#000000" />
+                        </TableRow>
+
+                        <View
+                            android:layout_height="2dip"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:background="#9B9D9C" />
+
+                        <TableRow
+                            android:layout_height="match_parent"
+                            android:padding="4dip">
+
+                            <TextView
+                                android:layout_width="90dp"
+                                android:text="08.00-10.30"
+                                android:textAlignment="center"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:background="#ffffff"
+                                android:text="Teknik Penulisan Karya Ilmiah"
+                                android:textAlignment="center"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:text="3"
+                                android:textAlignment="center"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:background="#ffffff"
+                                android:text="103"
+                                android:textAlignment="center"
+                                android:textColor="#000000" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_height="match_parent"
+                            android:padding="4dip">
+
+                            <TextView
+                                android:layout_width="90dp"
+                                android:text="13.00-14.30"
+                                android:textAlignment="center"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:layout_width="150dp"
+                                android:background="#ffffff"
+                                android:text="Pemrograman Mobile"
+                                android:textAlignment="center"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:text="3"
+                                android:textAlignment="center"
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:background="#ffffff"
+                                android:text="102"
+                                android:textAlignment="center"
+                                android:textColor="#000000" />
+                        </TableRow>
+
+                    </TableLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingBottom="15dp"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/judul_semester"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="60dp"
+                                android:layout_weight="1"
+                                android:fontFamily="sans-serif-medium"
+                                android:gravity="center_vertical"
+                                android:text="Semester"
+                                android:textColor="#094314"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/semester"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="60dp"
+                                android:layout_weight="1"
+                                android:background="#094314"
+                                android:fontFamily="sans-serif-medium"
+                                android:gravity="center"
+                                android:text="Ganjil"
+                                android:textColor="#E8EDE9"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/judul_status_kuliah"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="60dp"
+                                android:layout_weight="1"
+                                android:fontFamily="sans-serif-medium"
+                                android:gravity="center_vertical"
+                                android:text="Status Kuliah"
+                                android:textColor="#094314"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:id="@+id/status"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="60dp"
+                                android:layout_weight="1"
+                                android:background="#094314"
+                                android:fontFamily="sans-serif-medium"
+                                android:gravity="center"
+                                android:text="Tidak Aktif"
+                                android:textColor="#E8EDE9"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#094314"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:onClick="Home">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="Home"
+                    android:textColor="#094314"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:onClick="Akademik">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="Akademik"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:padding="0dip"
+                android:onClick="Jadwal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="Jadwal"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:onClick="Profil">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="Profil"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:onClick="Notif">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:text="Notif"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
